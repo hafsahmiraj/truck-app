@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/truck-app/static/css/main.f289d94b.css",
+    "main.js": "/truck-app/static/js/main.e89cb72e.js",
+    "static/js/453.10aecf8e.chunk.js": "/truck-app/static/js/453.10aecf8e.chunk.js",
+    "index.html": "/truck-app/index.html",
+    "main.f289d94b.css.map": "/truck-app/static/css/main.f289d94b.css.map",
+    "main.e89cb72e.js.map": "/truck-app/static/js/main.e89cb72e.js.map",
+    "453.10aecf8e.chunk.js.map": "/truck-app/static/js/453.10aecf8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f289d94b.css",
+    "static/js/main.e89cb72e.js"
+  ]
+}
