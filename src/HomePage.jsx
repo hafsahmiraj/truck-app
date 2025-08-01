@@ -48,7 +48,7 @@ asphalt paver.</p>
             <button className="cta-button">CONTACT US!</button>
           </div>
           <div className="hero-image">
-            <img src="/terrain.jpg" alt="Compact Track Loader" />
+            <img src={`${process.env.PUBLIC_URL}/terrain.jpg`} alt="Compact Track Loader" />
           </div>
         </div>
       </section>
@@ -62,7 +62,7 @@ asphalt paver.</p>
             <button className="category-btn">Read More!</button>
           </div>
           <div className="category-image">
-            <img src="/excavator.jpg" alt="Excavator" />
+            <img src={`${process.env.PUBLIC_URL}/excavator.jpg`} alt="Excavator" />
           </div>
         </div>
 
@@ -73,7 +73,7 @@ asphalt paver.</p>
             <button className="category-btn">Read More!</button>
           </div>
           <div className="category-image">
-            <img src="/backhoe.jpg" alt="Backhoe" />
+            <img src={`${process.env.PUBLIC_URL}/backhoe.jpg`} alt="Backhoe" />
           </div>
         </div>
 
@@ -84,7 +84,7 @@ asphalt paver.</p>
             <button className="category-btn">Read More!</button>
           </div>
           <div className="category-image">
-            <img src="/dumptruck.jpg" alt="Dump Truck" />
+            <img src={`${process.env.PUBLIC_URL}/dumptruck.jpg`} alt="Dump Truck" />
           </div>
         </div>
       </section>
@@ -107,7 +107,7 @@ asphalt paver.</p>
             <h3>FEATURED PRODUCTS</h3>
             <div className="products-grid">
               <div className="product-item">
-                <img src="/gears.jpg" alt="Gears" />
+                <img src={`${process.env.PUBLIC_URL}/gears.jpg`} alt="Gears" />
                 <div className="product-info">
                   <h4>GEARS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -116,7 +116,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src="/roller.jpg" alt="Roller" />
+                <img src={`${process.env.PUBLIC_URL}/roller.jpg`} alt="Roller" />
                 <div className="product-info">
                   <h4>ROLLER</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -125,7 +125,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src="/Hydraulic.jpg" alt="Hydraulic" />
+                <img src={`${process.env.PUBLIC_URL}/Hydraulic.jpg`} alt="Hydraulic" />
                 <div className="product-info">
                   <h4>HYDRAULIC</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -134,7 +134,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src="/Nuts.jpg" alt="Nuts & Bolts" />
+                <img src={`${process.env.PUBLIC_URL}/Nuts.jpg`} alt="Nuts & Bolts" />
                 <div className="product-info">
                   <h4>NUTS & BOLTS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -143,7 +143,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src="/Coi.jpg" alt="Coils" />
+                <img src={`${process.env.PUBLIC_URL}/Coi.jpg`} alt="Coils" />
                 <div className="product-info">
                   <h4>COILS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -152,7 +152,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src="/Yellowmeta.jpg" alt="Metal Parts" />
+                <img src={`${process.env.PUBLIC_URL}/Yellowmeta.jpg`} alt="Metal Parts" />
                 <div className="product-info">
                   <h4>METAL PARTS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -181,7 +181,7 @@ asphalt paver.</p>
         </div>
         <div className="sale-products">
           <div className="sale-item">
-            <img src="/gears.jpg" alt="Gears Sale" />
+            <img src={`${process.env.PUBLIC_URL}/gears.jpg`} alt="Gears Sale" />
             <div className="sale-info">
               <h4>GEARS - SALE 30%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -191,7 +191,7 @@ asphalt paver.</p>
           </div>
 
           <div className="sale-item">
-            <img src="/Yellowmeta.jpg" alt="Metal Parts Sale" />
+            <img src={`${process.env.PUBLIC_URL}/Yellowmeta.jpg`} alt="Metal Parts Sale" />
             <div className="sale-info">
               <h4>METAL - SALE 25%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -201,7 +201,7 @@ asphalt paver.</p>
           </div>
 
           <div className="sale-item">
-            <img src="/Nuts.jpg" alt="Nuts Sale" />
+            <img src={`${process.env.PUBLIC_URL}/Nuts.jpg`} alt="Nuts Sale" />
             <div className="sale-info">
               <h4>NUTS - SALE 40%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -211,7 +211,7 @@ asphalt paver.</p>
           </div>
 
           <div className="sale-item">
-            <img src="/Hydraulic.jpg" alt="Hydraulic Sale" />
+            <img src={`${process.env.PUBLIC_URL}/Hydraulic.jpg`} alt="Hydraulic Sale" />
             <div className="sale-info">
               <h4>HYDRAULIC - SALE 20%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -229,7 +229,7 @@ asphalt paver.</p>
       <section className="equipment-showcase">
         <div className="showcase-content">
           <div className="showcase-item active">
-            <img src="/terrain.jpg" alt="Terrain Loader" />
+            <img src={`${process.env.PUBLIC_URL}/terrain.jpg`} alt="Compact Track Loader" />
           </div>
           <div className="showcase-controls">
             <button className="prev-btn">‹</button>
