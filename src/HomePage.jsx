@@ -1,6 +1,13 @@
 import React from 'react';
 import './HomePage.css';
 
+// Utility function to get the correct image path for GitHub Pages
+const getImagePath = (imageName) => {
+  // For GitHub Pages deployment, use the full path with homepage base
+  const basePath = process.env.PUBLIC_URL || '';
+  return `${basePath}/${imageName}`;
+};
+
 const HomePage = () => {
   return (
     <div className="homepage">
@@ -48,7 +55,7 @@ asphalt paver.</p>
             <button className="cta-button">CONTACT US!</button>
           </div>
           <div className="hero-image">
-            <img src={`${process.env.PUBLIC_URL}/terrain.jpg`} alt="Compact Track Loader" />
+            <img src={getImagePath('terrain.jpg')} alt="Compact Track Loader" />
           </div>
         </div>
       </section>
@@ -62,7 +69,7 @@ asphalt paver.</p>
             <button className="category-btn">Read More!</button>
           </div>
           <div className="category-image">
-            <img src={`${process.env.PUBLIC_URL}/excavator.jpg`} alt="Excavator" />
+            <img src={getImagePath('excavator.jpg')} alt="Excavator" />
           </div>
         </div>
 
@@ -73,7 +80,7 @@ asphalt paver.</p>
             <button className="category-btn">Read More!</button>
           </div>
           <div className="category-image">
-            <img src={`${process.env.PUBLIC_URL}/backhoe.jpg`} alt="Backhoe" />
+            <img src={getImagePath('backhoe.jpg')} alt="Backhoe" />
           </div>
         </div>
 
@@ -84,7 +91,7 @@ asphalt paver.</p>
             <button className="category-btn">Read More!</button>
           </div>
           <div className="category-image">
-            <img src={`${process.env.PUBLIC_URL}/dumptruck.jpg`} alt="Dump Truck" />
+            <img src={getImagePath('dumptruck.jpg')} alt="Dump Truck" />
           </div>
         </div>
       </section>
@@ -107,7 +114,7 @@ asphalt paver.</p>
             <h3>FEATURED PRODUCTS</h3>
             <div className="products-grid">
               <div className="product-item">
-                <img src={`${process.env.PUBLIC_URL}/gears.jpg`} alt="Gears" />
+                <img src={getImagePath('gears.jpg')} alt="Gears" />
                 <div className="product-info">
                   <h4>GEARS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -116,7 +123,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src={`${process.env.PUBLIC_URL}/roller.jpg`} alt="Roller" />
+                <img src={getImagePath('roller.jpg')} alt="Roller" />
                 <div className="product-info">
                   <h4>ROLLER</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -125,7 +132,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src={`${process.env.PUBLIC_URL}/Hydraulic.jpg`} alt="Hydraulic" />
+                <img src={getImagePath('Hydraulic.jpg')} alt="Hydraulic" />
                 <div className="product-info">
                   <h4>HYDRAULIC</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -134,7 +141,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src={`${process.env.PUBLIC_URL}/Nuts.jpg`} alt="Nuts & Bolts" />
+                <img src={getImagePath('Nuts.jpg')} alt="Nuts & Bolts" />
                 <div className="product-info">
                   <h4>NUTS & BOLTS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -143,7 +150,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src={`${process.env.PUBLIC_URL}/Coi.jpg`} alt="Coils" />
+                <img src={getImagePath('Coi.jpg')} alt="Coils" />
                 <div className="product-info">
                   <h4>COILS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -152,7 +159,7 @@ asphalt paver.</p>
               </div>
 
               <div className="product-item">
-                <img src={`${process.env.PUBLIC_URL}/Yellowmeta.jpg`} alt="Metal Parts" />
+                <img src={getImagePath('Yellowmeta.jpg')} alt="Metal Parts" />
                 <div className="product-info">
                   <h4>METAL PARTS</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -181,7 +188,7 @@ asphalt paver.</p>
         </div>
         <div className="sale-products">
           <div className="sale-item">
-            <img src={`${process.env.PUBLIC_URL}/gears.jpg`} alt="Gears Sale" />
+            <img src={getImagePath('gears.jpg')} alt="Gears Sale" />
             <div className="sale-info">
               <h4>GEARS - SALE 30%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -191,7 +198,7 @@ asphalt paver.</p>
           </div>
 
           <div className="sale-item">
-            <img src={`${process.env.PUBLIC_URL}/Yellowmeta.jpg`} alt="Metal Parts Sale" />
+            <img src={getImagePath('Yellowmeta.jpg')} alt="Metal Parts Sale" />
             <div className="sale-info">
               <h4>METAL - SALE 25%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -201,7 +208,7 @@ asphalt paver.</p>
           </div>
 
           <div className="sale-item">
-            <img src={`${process.env.PUBLIC_URL}/Nuts.jpg`} alt="Nuts Sale" />
+            <img src={getImagePath('Nuts.jpg')} alt="Nuts Sale" />
             <div className="sale-info">
               <h4>NUTS - SALE 40%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -211,7 +218,7 @@ asphalt paver.</p>
           </div>
 
           <div className="sale-item">
-            <img src={`${process.env.PUBLIC_URL}/Hydraulic.jpg`} alt="Hydraulic Sale" />
+            <img src={getImagePath('Hydraulic.jpg')} alt="Hydraulic Sale" />
             <div className="sale-info">
               <h4>HYDRAULIC - SALE 20%</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -229,7 +236,7 @@ asphalt paver.</p>
       <section className="equipment-showcase">
         <div className="showcase-content">
           <div className="showcase-item active">
-            <img src={`${process.env.PUBLIC_URL}/terrain.jpg`} alt="Compact Track Loader" />
+            <img src={getImagePath('terrain.jpg')} alt="Compact Track Loader" />
           </div>
           <div className="showcase-controls">
             <button className="prev-btn">‹</button>
