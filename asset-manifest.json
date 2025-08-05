@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/truck-app/static/css/main.f289d94b.css",
-    "main.js": "/truck-app/static/js/main.e752e428.js",
+    "main.css": "/truck-app/static/css/main.0f2cd224.css",
+    "main.js": "/truck-app/static/js/main.ac8557f1.js",
     "static/js/453.10aecf8e.chunk.js": "/truck-app/static/js/453.10aecf8e.chunk.js",
     "index.html": "/truck-app/index.html",
-    "main.f289d94b.css.map": "/truck-app/static/css/main.f289d94b.css.map",
-    "main.e752e428.js.map": "/truck-app/static/js/main.e752e428.js.map",
+    "main.0f2cd224.css.map": "/truck-app/static/css/main.0f2cd224.css.map",
+    "main.ac8557f1.js.map": "/truck-app/static/js/main.ac8557f1.js.map",
     "453.10aecf8e.chunk.js.map": "/truck-app/static/js/453.10aecf8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f289d94b.css",
-    "static/js/main.e752e428.js"
+    "static/css/main.0f2cd224.css",
+    "static/js/main.ac8557f1.js"
   ]
 }
